@@ -11,6 +11,10 @@ import Pricing from "./components/LinkPage/NavbarPage/Pricing/Pricing";
 import LogIn from "./components/LinkPage/NavbarPage/LoginPage/LogIn";
 import TryIt from "./components/LinkPage/NavbarPage/TryItPage/TryIt";
 import NavbarPage from "./components/HomePage/NavbarPage/NavbarPage";
+import Footer from "./components/HomePage/Footer/Footer";
+import Form from "./Form/FormPage";
+import FormPage from "./Form/FormPage";
+import FormReg from "./FormRegistrate/FormReg";
 // import Allpages from "./components/LinkPage/Allpages";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
@@ -23,9 +27,11 @@ root.render(
       <Route path="/Blog" element={<Blog />}></Route>
       <Route path="/Contact" element={<Contact />}></Route>
       <Route path="/Pricing" element={<Pricing />}></Route>
-      <Route path="/Login" element={<LogIn />}></Route>
+      <Route path="/Login" element={<FormPage />}></Route>
+      <Route path="/register" element={<FormReg />}></Route>
       <Route path="/TryIt" element={<TryIt />}></Route>
       {/* <Route path="/btn" element={<Allpages />}></Route> */}
     </Routes>
+    <Footer />
   </BrowserRouter>
 );

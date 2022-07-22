@@ -1,7 +1,10 @@
 import React from "react";
+import data from "../../../Data/DataPagination";
+import { RiArrowDropDownLine } from "react-icons/ri";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import multiCarousel1 from "../../../assets/HomePageImg//NavbarImg/CarouselImg/Multicarousel1.png";
+import multiCarousel1 from "../../../assets/HomePageImg//NavbarImg/CarouselImg/Multi2.png";
+import { Container } from "./Style";
 const responsive = {
   superLargeDesktop: {
     // the naming can be any, depends on you.
@@ -25,13 +28,69 @@ const responsive = {
 const MultiCarouselPage = () => {
   return (
     <Carousel responsive={responsive}>
-      <img id="MultiCarousel" src={multiCarousel1} alt="" />
-      <img id="MultiCarousel" src={multiCarousel1} alt="" />
-      <img id="MultiCarousel" src={multiCarousel1} alt="" />
-      <img id="MultiCarousel" src={multiCarousel1} alt="" />
-      <img id="MultiCarousel" src={multiCarousel1} alt="" />
-      <img id="MultiCarousel" src={multiCarousel1} alt="" />
-      <img id="MultiCarousel" src={multiCarousel1} alt="" />
+      <Container>
+        <img id="MultiCarousel" src={multiCarousel1} alt="" />
+        <p>Knaus</p>
+        <button>Discover the range</button>
+        <div>
+          <span>Choose a model</span>
+          <RiArrowDropDownLine />
+        </div>
+      </Container>
+      <Container>
+        <img id="MultiCarousel" src={multiCarousel1} alt="" />
+        <p>Knaus</p>
+        <button>Discover the range</button>
+        <div>
+          <span>Choose a model</span>
+          <RiArrowDropDownLine />
+        </div>
+      </Container>
+      <Container>
+        <img id="MultiCarousel" src={multiCarousel1} alt="" />
+        <p>Knaus</p>
+        <button>Discover the range</button>
+        <div>
+          <span>Choose a model</span>
+          <RiArrowDropDownLine />
+        </div>
+      </Container>
+      <Container>
+        <img id="MultiCarousel" src={multiCarousel1} alt="" />
+        <p>Knaus</p>
+        <button>Discover the range</button>
+        <div>
+          <span>Choose a model</span>
+          <RiArrowDropDownLine />
+        </div>
+      </Container>
+      <Container>
+        <img id="MultiCarousel" src={multiCarousel1} alt="" />
+        <p>Knaus</p>
+        <button>Discover the range</button>
+        <div>
+          <span>Choose a model</span>
+          <RiArrowDropDownLine />
+        </div>
+      </Container>
+      <Container>
+        <img id="MultiCarousel" src={multiCarousel1} alt="" />
+        <p>Knaus</p>
+        <button>Discover the range</button>
+        <div>
+          <span>Choose a model</span>
+          <RiArrowDropDownLine />
+        </div>
+      </Container>
+      <Container>
+        <img id="MultiCarousel" src={multiCarousel1} alt="" />
+        <p>Knaus</p>
+        <button>Discover the range</button>
+        <div>
+          <span>Choose a model</span>
+          <RiArrowDropDownLine />
+        </div>
+      </Container>
     </Carousel>
   );
 };

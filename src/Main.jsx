@@ -1,8 +1,12 @@
 import React from "react";
-import NavbarPage from "./components/HomePage/NavbarPage/NavbarPage";
+import MotorMain from "./components/HomePage/MotorPage/MotorMain";
 
 const Main = () => {
-  return <div>{/* <NavbarPage /> */}</div>;
+  return (
+    <div>
+      <MotorMain />
+    </div>
+  );
 };
 
 export default Main;
